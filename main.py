@@ -8,3 +8,7 @@ def agregar_producto(inventario):
         "precio": precio,
         "cantidad": cantidad
     })
+
+def lista_productos(inventario):
+    for producto in inventario:
+        print(producto)
