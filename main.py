@@ -12,5 +12,3 @@ def agregar_producto(inventario):
 def lista_productos(inventario):
     for producto in inventario:
         print(producto)
-
-    print ("error inventario")
